@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
 >>>>>>> 3378b48 (Update)
+=======
+
+>>>>>>> 51af96b (Update.)
 # Week-1-Toy-problems-Prerequisites
 =======
 # WEEK ONE CHALLENGE
@@ -39,6 +43,9 @@ This project demonstrates basic JavaScript programming techniques. It includes:
    ```bash
    git clone https://github.com/Kohmmz/Wk1-Code-Challenge.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c0bcef4 (READ.ME.md updtate)
 >>>>>>> 3378b48 (Update)
+=======
+>>>>>>> 51af96b (Update.)
