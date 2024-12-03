@@ -1,4 +1,5 @@
 // Basic Salary and Benefits
+<<<<<<< HEAD
 const basicSalary = 10000;// input
 const benefits = 10000;// input
 
@@ -6,6 +7,15 @@ const benefits = 10000;// input
 let grossSalary = basicSalary + benefits;
 
 // PAYE Calculation //(Progressive Tax)
+=======
+const basicSalary = 10000;
+const benefits = 10000;
+
+// Gross Salary Calculation
+let grossSalary = basicSalary + benefits;
+
+// PAYE Calculation
+>>>>>>> 3378b48 (Update)
 function payeCalculation(grossSalary) {
     let paye = 0;
     if (grossSalary <= 24000) {
@@ -22,7 +32,11 @@ function payeCalculation(grossSalary) {
     return paye;
 }
 
+<<<<<<< HEAD
 // NHIF Deductions // fix ammout deducted based on salary ranges.
+=======
+// NHIF Deductions
+>>>>>>> 3378b48 (Update)
 function nhifDeductions(grossSalary) {
     let nhif = 0;
     if (grossSalary <= 5999) {
@@ -61,5 +75,9 @@ let paye = payeCalculation(grossSalary);
 let nhif = nhifDeductions(grossSalary);
 let netSalary = grossSalary - nssf - nhif - paye;
 
+<<<<<<< HEAD
 //results
 console.log("Net Salary" ,netSalary);
+=======
+console.log("Net Salary: ", netSalary);
+>>>>>>> 3378b48 (Update)
