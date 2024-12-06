@@ -100,9 +100,6 @@ To run each part of the project, simply open the `index.html` file in any modern
 
 
 ## Technologies Used
-
-- **HTML5**: For structuring the project.
-- **CSS3**: For basic styling.
 - **JavaScript (ES6)**: For implementing the core functionality.
 
 
