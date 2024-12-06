@@ -1,6 +1,6 @@
-// Basic Salary and Benefits
-const basicSalary = 10000; // Input
-const benefits = 10000; // Input
+// Get user input for Basic Salary and Benefits
+const basicSalary = parseFloat(prompt("Enter Basic Salary:"));
+const benefits = parseFloat(prompt("Enter Benefits:"));
 
 // Gross Salary Calculation
 let grossSalary = basicSalary + benefits;

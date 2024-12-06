@@ -1,6 +1,14 @@
-function speedDetector(speed) {
+function speedDetector() {
     const speedLimit = 70; // Maximum speed
     const maxPoints = 12;  // Maximum points before license suspension
+
+    // Get the speed from the user
+    const speed = parseInt(prompt("Enter your speed: "), 10);
+
+    if (isNaN(speed)) {
+        console.log("Please enter a valid number for speed.");
+        return;
+    }
 
     if (speed <= speedLimit) {
         console.log("OK"); // Speed is within limit
@@ -17,8 +25,5 @@ function speedDetector(speed) {
     }
 }
 
-// Results
-speedDetector(80);
-speedDetector(90);
-speedDetector(135);
-speedDetector(150);
+// Call the function
+speedDetector();
