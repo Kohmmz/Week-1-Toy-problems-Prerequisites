@@ -54,7 +54,9 @@ function nhifDeductions(grossSalary) {
 }
 
 // NSSF Calculation (6% of Gross Salary)
-let nssf = grossSalary * 0.06;
+const nssfTierOne = Math.min(grossSalary, 7000) * 0.06;
+const nssfTierTwo = Math.max(0, Math.min(grossSalary - 7000, 29000)) * 0.06;
+const nssf = nssfTierOne + nssfTierTwo;
 
 // Calculate Net Salary
 let paye = payeCalculation(grossSalary);
